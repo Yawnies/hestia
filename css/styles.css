@@ -1,0 +1,245 @@
+html {
+    background-color: #000;
+}
+
+body {
+    font-family: "Space Mono", monospace;
+    color: green;
+}
+
+p {
+    margin: 5px 0 5px 0;
+}
+
+h3 {
+    margin: 5px 0 5px 0; 
+}
+
+.lgnhover, .delete-log-on-click {
+    transition: 0.3s;
+}
+
+.lgnhover:hover, .delete-log-on-click:hover {
+    color: #2ed12e;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.b {
+    font-weight: 700;
+}
+
+::placeholder {
+    color: green;
+    opacity: 50%;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #2ed12e;
+}
+
+.marg-tp-bt-10 {
+    margin: 10px 0 10px 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.pda-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.cathub {
+    width: 40px;
+}
+
+.divider {
+    width: 2px;
+    height: 800px;
+    background-color: green;
+    margin: 0 15px 0px 15px;
+}
+
+.horiz {
+    height: 2px;
+    width: 75px;
+    background-color: green;
+    margin: 10px 0 10px 0;
+}
+
+.change-color {
+    width: 80px;
+}
+
+.change-color2 {
+    width: 75px;
+}
+
+.button1, .button2 {
+    width: 80px;
+}
+
+.button2 {
+    margin-top: 15px !important;
+    width: 75px;
+}
+
+.sidebar-butt, .cathub {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.sidebar-butt:hover > .change-color {
+    stroke: #2ed12e;
+}
+
+.sidebar-butt:hover > .change-color2 {
+    stroke: #2ed12e;
+}
+
+.cathub2:hover > .icons1 {
+    stroke: #2ed12e;
+}
+
+.pda-name {
+    text-align: right;
+}
+
+.interactive {
+    width: 1000px;
+    height: 800px;
+}
+
+.center-object {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+/* item content customization */
+
+.demo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+    border: solid 1px green;
+    border-radius: 10px;
+
+    width: 1000px;
+    margin-bottom: 10px;
+}
+
+.demo-item-no-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+    border: solid 1px green;
+    border-radius: 10px 10px 0 0;
+    border-bottom: none;
+
+    width: 1000px;
+}
+
+.demo-item-bottom {
+    padding: 10px;
+    border: solid 1px green;
+    border-radius: 0px 0px 10px 10px;
+    border-top: none;
+}
+
+/* .demo-item-content-right {
+    margin-left: 50px;
+} */
+
+textarea {
+    resize: none;
+    background-color: transparent;
+    color: green;
+    border: solid 1px green;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input {
+    background-color: transparent;
+    color: green;
+    border: solid 1px green;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.log-name-input {
+    width: 700px;
+}
+
+.submit-button {
+    margin-top: 15px;
+    background-color: transparent;
+    color: green;
+    border: solid 1px green;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    color: #2ed12e;
+}
+
+.generic-button {
+    margin-top: 15px;
+    background-color: transparent;
+    color: green;
+    border: solid 1px green;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.generic-button:hover {
+    color: #2ed12e;
+}
+
+/* keep id aligned with other content */
+.dicl-date-tag {
+    display:  flex;
+}
+
+.dicl-title {
+    display: inline-block;
+}
+
+.theLegendaryId {
+    margin-left: 10px;
+}
